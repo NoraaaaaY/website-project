@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* ========================
+   Hero Section
+======================== */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #222; /* fallback color in case image doesn't load */
+  color: white;
+}
+
+.hero-image {
+  width: 100%;       /* full width */
+  max-height: 400px; /* limit height */
+  object-fit: cover; /* crop without distortion */
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+}
